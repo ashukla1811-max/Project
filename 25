@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>rowspan and colspan example</title>
+    </head>
+    <body>
+        <h2>HTML table with rowspan and colspan</h2>
+        <table border="1" cellpadding="10" cellspacing="10"
+        <tr>
+            <th rowspan="2"> Name </th> <!--Rowspan: covers 2 rows -->
+            <th colspan="2"> Marks</th> <!--colspan: covers 2 colmuns-->
+        </tr>
+        <tr>
+            <th>Maths</th>
+            <th>science</th>
+            <th>english</th>
+        </tr>
+        <tr>
+            <td>Yash</td>
+            <td>90</td>
+            <td>99</td>
+            <td>100</td>
+        </td>
+        <td>    

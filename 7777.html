@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest & Average</title>
+</head>
+<body>
+
+    <h2>Find Greatest Number and Average Using Functions</h2>
+
+    <p id="greatOutput"></p>
+    <p id="avgOutput"></p>
+
+    <script>
+        function findGreatest(a, b) {
+            if (a > b) {
+                return a;
+            } else {
+                return b;
+            }
+        }
+
+        
+        function findAverage(x, y) {
+            return (x + y) / 2;
+        }
+
+        
+        let greatest = findGreatest(25, 40);
+        let average = findAverage(25, 40);
+
+       
+        document.getElementById("greatOutput").innerHTML =
+            "The greatest number between 25 and 40 is: " + greatest;
+
+        document.getElementById("avgOutput").innerHTML =
+            "The average of 25 and 40 is: " + average;
+
+    </script>
+
+</body>
+</html>
